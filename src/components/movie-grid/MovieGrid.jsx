@@ -119,7 +119,7 @@ const MovieSearch = props => {
         <div className="movie-search">
             <Input
                 type="text"
-                placeholder="Enter keyword"
+                placeholder="Search movies,tv shows..."
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
             />
